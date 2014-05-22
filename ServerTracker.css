@@ -1,0 +1,24 @@
+﻿body {
+    color: darkblue;
+}
+
+.intro {
+    horiz-align: center;
+    margin: 20px;
+}
+
+.masterGrid { 
+    display: -ms-grid;
+    grid-columns: 100px 1fr 100px;
+    grid-rows: 100px 1fr 100px;
+    width: 100%;
+    height: 40%;
+    margin: 100px;
+    border: darkblue;
+    border-width: 2px;
+}
+
+.explanation { font-size:large; font-weight: bold }
+
+.server { }
+
